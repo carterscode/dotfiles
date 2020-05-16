@@ -21,6 +21,11 @@ export LC_ALL=en_US.UTF-8
 
 source $HOME/antigen.zsh
 
+# Set Alias'
+
+alias kpodinfo="kubectl get pods --all-namespaces -o jsonpath='{..image}' | tr -s '[[:space:]]' '\n' | sort | uniq -c"
+alias kpod="kubectl get pods"
+
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
 
