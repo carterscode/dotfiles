@@ -19,6 +19,7 @@ cd $HOME && curl -L git.io/antigen > antigen.zsh
 brew install antigen
 
 sudo chown -R username /usr/local/share/zsh/
+
 sudo chmod -R 755 /usr/local/share/zsh/
 
 # Install Python3
