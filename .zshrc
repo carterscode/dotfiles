@@ -1,7 +1,12 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=/usr/local/opt/python/libexec/bin:$PATH
 export KUBECONFIG=$KUBECONFIG:$HOME/.kube/config
-#export ZSH="/Users/cfields/.oh-my-zsh"
+export ZSH="/Users/cfields/.oh-my-zsh"
+
+# Go
+export GOPATH=$HOME/go
+export GOROOT="$(brew --prefix golang)/libexec"
+export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 
 # ZSH History Options
 HISTSIZE=500000
