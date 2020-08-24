@@ -14,7 +14,6 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 # Install antigen
 
-cd $HOME
-curl -L git.io/antigen > antigen.zsh
+cd $HOME && curl -L git.io/antigen > antigen.zsh
 
 brew install antigen
