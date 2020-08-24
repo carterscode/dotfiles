@@ -1,4 +1,5 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=/usr/local/opt/python/libexec/bin:$PATH
 export KUBECONFIG=$KUBECONFIG:$HOME/.kube/config
 #export ZSH="/Users/cfields/.oh-my-zsh"
 
