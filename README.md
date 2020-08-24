@@ -25,3 +25,10 @@ sudo chmod -R 755 /usr/local/share/zsh/
 # Install Python3
 
 brew install python
+
+# Install Golang
+
+brew install golang
+
+mkdir -p $HOME/go/{bin,src,pkg}
+
