@@ -17,3 +17,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 cd $HOME && curl -L git.io/antigen > antigen.zsh
 
 brew install antigen
+
+# Install Python3
+
+brew install python
