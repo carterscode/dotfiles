@@ -1,5 +1,5 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-
+export KUBECONFIG=$KUBECONFIG:$HOME/.kube/config
 #export ZSH="/Users/cfields/.oh-my-zsh"
 
 # ZSH History Options
