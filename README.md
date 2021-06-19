@@ -22,13 +22,21 @@ sudo chown -R username /usr/local/share/zsh/
 
 sudo chmod -R 755 /usr/local/share/zsh/
 
-# Install Python3
-
-brew install python
-
 # Install Golang
 
 brew install golang
 
 mkdir -p $HOME/go/{bin,src,pkg}
 
+#Install Python3 and make default
+brew install pyenv
+pyenv install 3.9.5
+pyenv global 3.9.5
+
+python --version
+
+brew install kubectl
+brew install awscli
+brew install cfn-lint
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code
