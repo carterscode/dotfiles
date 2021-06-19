@@ -1,7 +1,7 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=/usr/local/opt/python/libexec/bin:$PATH
 export KUBECONFIG=$KUBECONFIG:$HOME/.kube/config
-export ZSH="/Users/cfields/.oh-my-zsh"
+export ZSH="~/.oh-my-zsh"
 
 # Go
 export GOPATH=$HOME/go
@@ -24,6 +24,12 @@ export HISTORY_IGNORE="(ls|bg|fg|pwd|exit|cd ..)"
 
 # Set Locale
 export LC_ALL=en_US.UTF-8
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+
+code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 
 source $HOME/antigen.zsh
 
@@ -67,5 +73,3 @@ antigen theme fox
 
 # Tell Antigen that you're done.
 antigen apply
-
-code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
