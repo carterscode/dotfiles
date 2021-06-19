@@ -29,8 +29,11 @@ brew install golang
 mkdir -p $HOME/go/{bin,src,pkg}
 
 #Install Python3 and make default
+
 brew install pyenv
+
 pyenv install 3.9.5
+
 pyenv global 3.9.5
 
 python --version
@@ -38,14 +41,25 @@ python --version
 # Install Misc apps
 
 brew install kubectl
+
 brew install awscli
+
 brew install cfn-lint
+
 brew tap homebrew/cask-fonts
+
 brew install --cask font-fira-code
+
 brew install watch
+
 brew install wget
+
 brew install syncthing
+
 brew install terraform
+
 brew install ansible
+
 brew install ansible-lint
+
 brew install derailed/k9s/k9s
