@@ -67,3 +67,5 @@ antigen theme fox
 
 # Tell Antigen that you're done.
 antigen apply
+
+code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
