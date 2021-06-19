@@ -40,3 +40,10 @@ brew install awscli
 brew install cfn-lint
 brew tap homebrew/cask-fonts
 brew install --cask font-fira-code
+brew install watch
+brew install wget
+brew install syncthing
+brew install terraform
+brew install ansible
+brew install ansible-lint
+brew install derailed/k9s/k9s
