@@ -35,6 +35,8 @@ pyenv global 3.9.5
 
 python --version
 
+# Install Misc apps
+
 brew install kubectl
 brew install awscli
 brew install cfn-lint
