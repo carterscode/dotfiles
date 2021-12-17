@@ -1,6 +1,12 @@
 # Install Homebrew
 
+#Big Sur
+
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+#Monterey
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Install iTerm2
 
@@ -28,7 +34,7 @@ brew install golang
 
 mkdir -p $HOME/go/{bin,src,pkg}
 
-#Install Python3 and make default
+# Install Python3 and make default
 
 brew install pyenv
 
