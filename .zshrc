@@ -1,5 +1,6 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=/usr/local/opt/python/libexec/bin:$PATH
+export PATH=/opt/homebrew/bin:$PATH
 export KUBECONFIG=$KUBECONFIG:$HOME/.kube/config
 export ZSH="~/.oh-my-zsh"
 
@@ -65,7 +66,7 @@ antigen bundle command-not-found
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 if [ "$(uname -s)" = "Darwin" ]; then
-   antigen bundle robbyrussell/oh-my-zsh plugins/osx
+   antigen bundle robbyrussell/oh-my-zsh plugins/macos
 fi
 
 # Load the theme.
