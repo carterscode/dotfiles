@@ -73,3 +73,7 @@ brew install derailed/k9s/k9s
 brew install ipcalc
 
 brew install tree
+
+brew install speedtest-cli
+
+brew install tmux
