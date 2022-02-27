@@ -79,3 +79,5 @@ brew install tree
 brew install speedtest-cli
 
 brew install tmux
+
+brew install --cask stats
