@@ -10,3 +10,6 @@ choco install malwarebytes
 choco install sysinternals
 choco install teamviewer
 choco install vscode
+choco install cpu-z
+choco install gpu-z
+choco install hwinfo
