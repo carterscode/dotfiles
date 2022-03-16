@@ -40,6 +40,7 @@ echo "Installing writing apps..."
 
 # Other
 echo "Installing everything else..."
+brew install --cask iterm2
 brew install kubectl
 brew install awscli
 brew install cfn-lint
