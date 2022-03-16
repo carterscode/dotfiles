@@ -38,9 +38,9 @@ mkdir -p $HOME/go/{bin,src,pkg}
 
 brew install pyenv
 
-pyenv install 3.10.2
+pyenv install 3.9.10
 
-pyenv global 3.10.2
+pyenv global 3.9.10
 
 pyenv uninstall 3.9.5
 
@@ -81,3 +81,5 @@ brew install speedtest-cli
 brew install tmux
 
 brew install --cask stats
+
+brew install --cask vlc
