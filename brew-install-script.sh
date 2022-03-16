@@ -58,3 +58,9 @@ brew install speedtest-cli
 brew install tmux
 brew install --cask stats
 brew install --cask vlc
+brew install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+cd $HOME && curl -L git.io/antigen > antigen.zsh
+brew install antigen
+sudo chown -R username /usr/local/share/zsh/
+sudo chmod -R 755 /usr/local/share/zsh/
