@@ -66,5 +66,7 @@ brew install antigen
 sudo chown -R username /usr/local/share/zsh/
 sudo chmod -R 755 /usr/local/share/zsh/
 curl https://raw.githubusercontent.com/carterscode/dotfiles/master/.zshrc --output ~/.zshrc
-python -m pip install --upgrade pip
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py
+#python -m pip install --upgrade pip
 pip install asitop
