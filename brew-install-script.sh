@@ -43,6 +43,7 @@ echo "Installing everything else..."
 brew install --cask iterm2
 brew install kubectl
 brew install awscli
+brew install aws-cdk
 brew install cfn-lint
 brew tap homebrew/cask-fonts
 brew install --cask font-fira-code
