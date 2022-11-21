@@ -8,7 +8,18 @@
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# Install iTerm2
+# Install Warp
+
+# Install Nerd Fonts
+brew tap homebrew/cask-fonts && brew install --cask font-hack-nerd-font
+
+# Install Exa
+
+brew install exa
+
+# Install starship
+
+brew install starship
 
 # Install zsh
 
