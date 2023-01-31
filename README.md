@@ -55,7 +55,19 @@ pyenv global 3.9.10
 
 pyenv uninstall 3.9.5
 
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+
+python3 get-pip.py
+
 python --version
+
+pip3 --version
+
+pip --version
+
+pip install pywinrm
+
+pip install rdk
 
 # Install Misc apps
 
