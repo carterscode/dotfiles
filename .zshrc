@@ -70,7 +70,9 @@ if [ "$(uname -s)" = "Darwin" ]; then
 fi
 
 # Load the theme.
-antigen theme fox
+#antigen theme fox
 
 # Tell Antigen that you're done.
 antigen apply
+pip install --upgrade pip
+eval "$(starship init zsh)"
