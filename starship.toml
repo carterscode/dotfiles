@@ -107,3 +107,16 @@ disabled = true
 [ruby]
 format = "via [ $version]($style) "
 disabled = true
+
+[aws]
+format = 'on [$symbol($profile )(\($region\) )]($style)'
+style = 'bold blue'
+symbol = '🅰 '
+[aws.region_aliases]
+ap-southeast-2 = 'au'
+us-east-1 = 'ue1'
+us-east-2 = 'ue2'
+us-west-1 = 'uw1'
+us-west-2 = 'uw2'
+[aws.profile_aliases]
+#CompanyGroupFrobozzOnCallAccess = 'Frobozz'
