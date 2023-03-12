@@ -9,12 +9,40 @@ echo "Installing brew..."
 echo "Installing brew cask..."
 brew tap homebrew/cask
 
+# Install ZSH
+echo "Installing zsh and components ..."
+brew tap homebrew/cask-fonts 
+brew install --cask font-hack-nerd-font
+brew install --cask font-fira-code
+brew install exa
+brew install starship
+brew install zsh
+sudo dscl . -create /Users/$USER UserShell /opt/homebrew/bin/zsh
+curl https://raw.githubusercontent.com/carterscode/dotfiles/master/.zshrc --output ~/.zshrc
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+cd ~/.config && curl -O https://raw.githubusercontent.com/carterscode/dotfiles/master/starship.toml
+cd ~/
+cd $HOME && curl -L git.io/antigen > antigen.zsh
+brew install antigen
+sudo chown -R $(whoami) /opt/homebrew/share/zsh
+sudo chmod -R 755 /opt/homebrew/share/zsh
+
 # Programming Languages
-brew install golang
 mkdir -p $HOME/go/{bin,src,pkg}
+brew install golang
+echo "Installing Python 3 ..."
 brew install pyenv
-pyenv install 3.9.10
-pyenv global 3.9.10
+brew install xz
+pyenv install 3.10.10
+pyenv global 3.10.10
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py
+python --version
+pip3 --version
+pip --version
+pip install pywinrm
+pip install rdk
+pip install asitop
 
 # Dev Tools
 echo "Installing development tools..."
@@ -24,7 +52,7 @@ brew install --cask visual-studio-code
 
 # Communication Apps
 echo "Installing communication apps..."
-#brew install --cask discord
+brew install --cask discord
 brew install --cask slack
 brew install --cask zoom
 
@@ -45,8 +73,6 @@ brew install kubectl
 brew install awscli
 brew install aws-cdk
 brew install cfn-lint
-brew tap homebrew/cask-fonts
-brew install --cask font-fira-code
 brew install watch
 brew install wget
 brew install syncthing
@@ -60,14 +86,3 @@ brew install speedtest-cli
 brew install tmux
 brew install --cask stats
 brew install --cask vlc
-brew install zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-cd $HOME && curl -L git.io/antigen > antigen.zsh
-brew install antigen
-sudo chown -R username /usr/local/share/zsh/
-sudo chmod -R 755 /usr/local/share/zsh/
-curl https://raw.githubusercontent.com/carterscode/dotfiles/master/.zshrc --output ~/.zshrc
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python3 get-pip.py
-#python -m pip install --upgrade pip
-pip install asitop
