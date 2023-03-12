@@ -2,7 +2,7 @@
 
 curl https://raw.githubusercontent.com/carterscode/dotfiles/master/brew-install-script.sh --output ~/Downloads/brew-install-script.sh
 
-cd ~/Downlaods
+cd ~/Downloads
 
 chmod +x ./brew-install-script.sh
 
