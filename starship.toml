@@ -31,12 +31,12 @@ variable = "STARSHIP_DISTRO"
 disabled = false
 
 # Shows the username
-#[username]
-#style_user = "white"
-#style_root = "white"
-#format = "[$user]($style) "
-#disabled = false
-#show_always = true
+[username]
+style_user = 'white bold'
+style_root = 'black bold'
+format = '[$user]($style) '
+disabled = false
+show_always = true
 
 [hostname]
 ssh_only = true
@@ -76,9 +76,8 @@ deleted = " "
 [kubernetes]
 format = 'via [ﴱ $context\($namespace\)](bold purple) '
 disabled = false
+detect_files = ['k8s']
 
-# (deactivated because of no space left)
-# 
 [terraform]
 format = "via [ terraform $version]($style) 壟 [$workspace]($style) "
 disabled = true
@@ -104,10 +103,6 @@ disabled = true
 format = "via [ $version](bold green) "
 disabled = true
 
-[ruby]
-format = "via [ $version]($style) "
-disabled = true
-
 [aws]
 format = 'on [$symbol($profile )(\($region\) )]($style)'
 style = 'bold blue'
@@ -119,4 +114,4 @@ us-east-2 = 'ue2'
 us-west-1 = 'uw1'
 us-west-2 = 'uw2'
 [aws.profile_aliases]
-#CompanyGroupFrobozzOnCallAccess = 'Frobozz'
+CompanyGroupFrobozzOnCallAccess = 'Frobozz'
