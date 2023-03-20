@@ -20,7 +20,8 @@ brew install zsh
 sudo dscl . -create /Users/$USER UserShell /opt/homebrew/bin/zsh
 curl https://raw.githubusercontent.com/carterscode/dotfiles/master/.zshrc --output ~/.zshrc
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-cd ~/.config && curl -O https://raw.githubusercontent.com/carterscode/dotfiles/master/starship.toml
+mkdir ~/.config
+curl https://raw.githubusercontent.com/carterscode/dotfiles/master/starship.toml --output ~/.config/starship.toml
 cd ~/
 cd $HOME && curl -L git.io/antigen > antigen.zsh
 brew install antigen
