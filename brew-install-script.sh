@@ -66,6 +66,7 @@ echo "Installing file storage tools..."
 
 # Writing Apps
 echo "Installing writing apps..."
+brew install --cask obsidian
 
 # Other
 echo "Installing everything else..."
