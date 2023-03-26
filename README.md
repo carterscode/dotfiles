@@ -1,17 +1,13 @@
 # Homebrew Script for OSX
-'''
-sh
+```sh
 curl https://raw.githubusercontent.com/carterscode/dotfiles/master/brew-install-script.sh --output ~/Downloads/brew-install-script.sh
-'''
-'''
-sh
+```
+```sh
 cd ~/Downloads
-'''
-'''
-sh
+```
+```sh
 chmod +x ./brew-install-script.sh
-'''
-'''
-sh
+```
+```sh
 ./brew-install-script.sh
-'''
+```
