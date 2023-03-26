@@ -108,17 +108,3 @@ brew install jump
 brew install fzf
 $(brew --prefix)/opt/fzf/install
 brew cleanup
-
-
-
-
-
-
-
-
-
-
-
-
-
-
