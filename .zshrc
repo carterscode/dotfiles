@@ -25,6 +25,15 @@ export HISTORY_IGNORE="(ls|bg|fg|pwd|exit|cd ..)"
 
 # Set Locale
 export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+# Add some aliases
+alias du="dust"
+alias find="fd"
+alias ls='exa'
+alias ll='exa -alh'
+alias sed='sd'
+alias time="hyperfine"
 
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
@@ -75,4 +84,7 @@ fi
 # Tell Antigen that you're done.
 antigen apply
 pip install --upgrade pip
+# use jump
+eval "$(jump shell)"
+# use Starship prompt
 eval "$(starship init zsh)"
