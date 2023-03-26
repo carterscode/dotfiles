@@ -80,6 +80,7 @@ brew install cfn-lint
 brew install watch
 brew install wget
 brew install syncthing
+brew services start syncthing
 brew install terraform
 brew install ansible
 brew install ansible-lint
