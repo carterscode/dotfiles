@@ -82,6 +82,7 @@ brew install wget
 brew install syncthing
 brew services start syncthing
 brew install terraform
+brew install tfsec
 brew install ansible
 brew install ansible-lint
 brew install derailed/k9s/k9s
