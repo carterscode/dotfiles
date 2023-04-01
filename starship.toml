@@ -18,11 +18,9 @@ format = """$env_var $all"""
 
 # Change the default prompt characters
 [character]
-# old config
-#success_symbol = "[](238)"
-#error_symbol = "[](238)"
-success_symbol = ""
-error_symbol = ""
+format = "[❯](bold green) "
+success_symbol = "[❯](bold green) "
+error_symbol = "[❯](bold red) "
 
 # Shows an icon that should be included by zshrc script based on the distribution or os
 [env_var.STARSHIP_DISTRO]
