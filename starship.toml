@@ -30,11 +30,7 @@ disabled = false
 
 # Shows the username
 [username]
-style_user = 'white bold'
-style_root = 'black bold'
-format = '[$user]($style) '
-disabled = false
-show_always = false
+disabled = true
 
 [hostname]
 ssh_only = true
@@ -42,7 +38,7 @@ format = "on [$hostname](bold yellow) "
 disabled = false
 
 [directory]
-truncation_length = 1
+truncation_length = 2
 truncation_symbol = "…/"
 home_symbol = " ~"
 read_only_style = "197"
