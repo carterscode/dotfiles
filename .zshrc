@@ -34,6 +34,7 @@ alias ls='exa'
 alias ll='exa -alh'
 alias sed='sd'
 alias time="hyperfine"
+alias gitrst="git fetch origin && git reset --hard origin/HEAD"
 
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
