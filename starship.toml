@@ -36,7 +36,7 @@ style_user = 'white bold'
 style_root = 'black bold'
 format = '[$user]($style) '
 disabled = false
-show_always = true
+show_always = false
 
 [hostname]
 ssh_only = true
@@ -49,7 +49,7 @@ truncation_symbol = "…/"
 home_symbol = " ~"
 read_only_style = "197"
 read_only = "  "
-format = "at [$path]($style)[$read_only]($read_only_style) "
+format = "[$path]($style)[$read_only]($read_only_style) "
 
 [git_branch]
 symbol = " "
