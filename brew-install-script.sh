@@ -112,6 +112,7 @@ pip install pywinrm
 pip install rdk
 pip install asitop
 pip install yawsso
+pip install boto3
 
 echo "Installing PowerShell ..."
 brew install --cask powershell
