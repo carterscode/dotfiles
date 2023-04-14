@@ -49,6 +49,7 @@ brew install tfsec
 brew install ansible
 brew install ansible-lint
 brew install derailed/k9s/k9s
+brew install telnet
 brew install ipcalc
 brew install tree
 brew install speedtest-cli
