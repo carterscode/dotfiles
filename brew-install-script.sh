@@ -49,6 +49,7 @@ brew install tfsec
 brew install ansible
 brew install ansible-lint
 brew install derailed/k9s/k9s
+brew install telnet
 brew install ipcalc
 brew install tree
 brew install speedtest-cli
@@ -111,5 +112,15 @@ pip --version
 pip install pywinrm
 pip install rdk
 pip install asitop
+pip install yawsso
+pip install boto3
+
+echo "Installing PowerShell ..."
+brew install --cask powershell
+#brew upgrade powershell --cask
+#Install-Module -Name AWS.Tools.Installer -Force
+#Get-AWSPowerShellVersion -ListService
+#Install-AWSToolsModule AWS.Tools.EC2,AWS.Tools.S3,AWS.Tools.ConfigService,AWS.Tools.AppConfigData -CleanUp -Force
+#Get-AWS-Resources-AdvancedQuery "Select * where resourceType = 'AWS::EC2::VPC'"
 
 brew cleanup
