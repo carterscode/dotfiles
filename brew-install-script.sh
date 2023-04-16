@@ -47,6 +47,7 @@ brew install terraform
 brew install terragrunt
 brew install tflint
 brew install tfsec
+#brew install tonedefdev/terracreds/terracreds
 brew install ansible
 brew install ansible-lint
 brew install derailed/k9s/k9s
