@@ -44,6 +44,7 @@ brew install wget
 brew install syncthing
 brew services start syncthing
 brew install terraform
+brew install terragrunt
 brew install tflint
 brew install tfsec
 brew install ansible
