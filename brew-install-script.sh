@@ -50,6 +50,9 @@ brew install tfsec
 #brew install tonedefdev/terracreds/terracreds
 brew install ansible
 brew install ansible-lint
+brew install turbot/tap/steampipe
+steampipe plugin install steampipe
+steampipe plugin install aws
 brew install derailed/k9s/k9s
 brew install telnet
 brew install ipcalc
