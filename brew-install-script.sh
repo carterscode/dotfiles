@@ -2,6 +2,7 @@
 
 # Homebrew Script for OSX
 # To execute: save and `chmod +x ./brew-install-script.sh` then `./brew-install-script.sh`
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/carterscode/dotfiles/master/brew-install-script.sh)"
 
 echo "Installing brew..."
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
