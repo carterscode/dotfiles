@@ -32,6 +32,10 @@ echo "Installing file storage tools..."
 echo "Installing writing apps..."
 brew install --cask obsidian
 
+# Browser Apps
+echo "Installing browser apps..."
+brew install --cask browserosaurus
+
 # Other
 echo "Installing everything else..."
 brew install --cask iterm2
