@@ -120,11 +120,11 @@ python3 get-pip.py
 python --version
 pip3 --version
 pip --version
-pip install pywinrm
-pip install rdk
-pip install asitop
-pip install yawsso
-pip install boto3
+pip3 install pywinrm
+pip3 install rdk
+pip3 install asitop
+pip3 install yawsso
+pip3 install boto3
 
 echo "Installing PowerShell ..."
 brew install --cask powershell
