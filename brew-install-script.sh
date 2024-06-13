@@ -67,6 +67,9 @@ brew install speedtest-cli
 brew install tmux
 brew install --cask stats
 brew install --cask vlc
+brew install lazydocker
+brew install z
+brew install httpie
 # rg — ripgrep recursively searches directories for regex patterns
 brew install ripgrep
 # fd — a simple, fast and user-friendly alternative to find
@@ -113,8 +116,8 @@ brew install golang
 echo "Installing Python 3 ..."
 brew install pyenv
 brew install xz
-pyenv install 3.10.10
-pyenv global 3.10.10
+pyenv install 3.10.14
+pyenv global 3.10.14
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 python --version
