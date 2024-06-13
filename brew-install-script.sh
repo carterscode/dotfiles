@@ -69,6 +69,7 @@ brew install --cask stats
 brew install --cask vlc
 brew install lazydocker
 brew install z
+# jq is a lightweight and flexible command-line JSON processor.
 brew install jq
 brew install httpie
 # rg — ripgrep recursively searches directories for regex patterns
