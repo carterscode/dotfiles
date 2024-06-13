@@ -69,6 +69,7 @@ brew install --cask stats
 brew install --cask vlc
 brew install lazydocker
 brew install z
+brew install jq
 brew install httpie
 # rg — ripgrep recursively searches directories for regex patterns
 brew install ripgrep
