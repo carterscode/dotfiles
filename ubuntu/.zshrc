@@ -146,5 +146,5 @@ source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Enable auto-suggestions
 source $ZSH_CUSTOM/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
-export STARSHIP_FONT="FiraCode Nerd Font"
+#export STARSHIP_FONT="FiraCode Nerd Font"
 eval "$(starship init zsh)"
