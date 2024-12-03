@@ -1,5 +1,9 @@
 # Set Alias'
 
+# git
+alias gitpush='git add . && git commit -m "Updates $(date +%s)" && git push'
+
+
 # Kubernetes
 alias kpodinfo="kubectl get pods --all-namespaces -o jsonpath='{..image}' | tr -s '[[:space:]]' '\n' | sort | uniq -c"
 alias kpod="kubectl get pods"
