@@ -41,6 +41,8 @@ brew install --cask browserosaurus
 # Other
 echo "Installing everything else..."
 brew install --cask iterm2
+brew tap hashicorp/tap
+brew install hashicorp/tap/packer
 brew install kubectl
 brew install awscli
 brew install aws-cdk
@@ -118,8 +120,8 @@ brew install golang
 echo "Installing Python 3 ..."
 brew install pyenv
 brew install xz
-pyenv install 3.10.14
-pyenv global 3.10.14
+pyenv install 3.11.11
+pyenv global 3.11.11
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 python --version
